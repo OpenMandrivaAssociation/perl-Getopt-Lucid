@@ -1,6 +1,5 @@
 %define upstream_name    Getopt-Lucid
-%define upstream_version 0.19
-
+%define upstream_version 1.05
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 1.05
 Release:	1
