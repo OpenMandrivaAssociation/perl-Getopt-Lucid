@@ -1,15 +1,14 @@
 %define upstream_name    Getopt-Lucid
-%define upstream_version 0.19
-
+%define upstream_version 1.05
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 1.05
+Release:	1
 
 Summary:	Clear, readable syntax for command line processing
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Getopt/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Getopt/Getopt-Lucid-1.05.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Carp)
@@ -65,3 +64,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Nov 19 2009 cpan2dist 0.18-1mdv
 - initial mdv release, generated with cpan2dist
+
