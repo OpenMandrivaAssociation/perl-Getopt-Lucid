@@ -1,14 +1,14 @@
 %define upstream_name    Getopt-Lucid
-%define upstream_version 1.05
+%define upstream_version 1.10
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 1.05
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Clear, readable syntax for command line processing
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Getopt/Getopt-Lucid-1.05.tar.gz
+Url:		https://github.com/dagolden/Getopt-Lucid
+Source0:	https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Getopt-Lucid-1.10.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
