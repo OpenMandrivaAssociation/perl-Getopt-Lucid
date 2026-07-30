@@ -2,7 +2,7 @@
 %define upstream_version 1.10
 Name:		perl-%{upstream_name}
 Version:	1.10
-Release:	5
+Release:	6
 
 Summary:	Clear, readable syntax for command line processing
 License:	GPL+ or Artistic
@@ -36,12 +36,12 @@ Getopt::Long. Key features include:
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
-%make
-
+%make_build
 %check
 # soft: do not fail package on test failures
 set +e
 :  # soft check
+:  # soft
 %make test || :
 
 %install
