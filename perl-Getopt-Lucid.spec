@@ -49,20 +49,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
 
-%changelog
-* Sat Apr 23 2011 Funda Wang <fwang@mandriva.org> 0.190.0-2mdv2011.0
-+ Revision: 656921
-- rebuild for updated spec-helper
-
-* Fri Nov 12 2010 Guillaume Rousse <guillomovitch@mandriva.org> 0.190.0-1mdv2011.0
-+ Revision: 596525
-- update to new version 0.19
-
-* Thu Nov 19 2009 Jérôme Quelin <jquelin@mandriva.org> 0.180.0-1mdv2011.0
-+ Revision: 467461
-- import perl-Getopt-Lucid
-
-
-* Thu Nov 19 2009 cpan2dist 0.18-1mdv
-- initial mdv release, generated with cpan2dist
-
