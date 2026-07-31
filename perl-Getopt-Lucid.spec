@@ -2,7 +2,7 @@
 %define upstream_version 1.10
 Name:		perl-%{upstream_name}
 Version:	1.10
-Release:	47
+Release:	48
 
 Summary:	Clear, readable syntax for command line processing
 License:	GPL+ or Artistic
